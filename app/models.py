@@ -32,7 +32,7 @@ class Treatment(base):
     id = Column(Integer, primary_key=True)
     title = Column(String)
     doctor_id = Column(Integer, ForeignKey('doctors.id'))
-    patient_id = Column(Integer, ForeignKey('patients.id'))  # Link treatment to patient
+    patient_id = Column(Integer, ForeignKey('patients.id'))  
 
     patient = relationship('Patients', back_populates='treatments')
     doctor = relationship('Doctors', back_populates='treatments')
@@ -43,7 +43,7 @@ class Appointment(base):
 
     id = Column(Integer, primary_key=True)
     appointment_date = Column(DateTime, nullable=False)
-    status = Column(String, nullable=False)  # Status can be 'Scheduled', 'Completed', etc.
+    status = Column(String, nullable=False)  
 
     doctor_id = Column(Integer, ForeignKey('doctors.id'))
     patient_id = Column(Integer, ForeignKey('patients.id'))
