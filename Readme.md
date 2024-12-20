@@ -28,21 +28,7 @@ Follow these steps to install and run the system:
 ### Recording of how my system works:
 
 
-
-<video controls src="Hospital Management project Screencast 2024-12-20 10:57:22.mp4" title="Title"></video>
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://drive.google.com/file/d/1KMbv0prWq9Y9xJH21AeGU7TzN4TBLS1m/view?usp=sharing
 
 ### presentation slides:
 https://www.canva.com/design/DAGZw4lz6gU/NTlCZ1grY-ft3GV_-wikWg/edit?utm_content=DAGZw4lz6gU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
